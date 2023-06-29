@@ -1,0 +1,56 @@
+.sec-con {
+    width: 100%;    
+    height: auto;
+}
+.sec-con .title-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec-con .title-box h2.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 50px 0; 
+}
+.sec-con .title-box ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding-bottom: 30px;
+    z-index: 999;
+}
+.sec-con .title-box ul li {
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.sec-con .title-box ul li:first-child {
+    position: relative;
+    font-weight: 600;
+}
+.sec-con .title-box ul li:first-child::after {
+    content: "|";
+    display: block;
+    position: absolute;
+    color: #a8a8a8;
+    right: -12px;
+    top: 5px;
+    font-size: 10px;
+    width: 1px;
+}
+.sec-con .title-box ul li:last-child {
+    color: #666666;
+}
+.sec-con .title-box ul li a {
+    font-size: inherit;
+    color: inherit;
+}
+.sec-con .img-box {
+    width: 100%;
+    height: auto;
+}
+.sec-con .img-box img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
